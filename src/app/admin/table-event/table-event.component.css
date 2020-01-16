@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    overflow-x: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table tr th:first-child {
+  width: 15%;
+}
+.table tr th:nth-child(2) {
+  width: 45%;
+}

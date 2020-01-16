@@ -1,0 +1,13 @@
+
+header {
+    background: gray;
+    height: 65px;
+    padding: 22px 0;
+}
+p {
+  float: left;
+}
+ header a {
+    float: right;
+    color: #fff;
+ }

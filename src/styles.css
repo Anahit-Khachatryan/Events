@@ -1,1 +1,126 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-break: break-word;
+
+}
+body {
+    position: relative;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+a,
+button {
+    color: #333;
+    cursor: pointer;
+}
+a:focus,
+button:focus {
+border: 0;
+outline: 0;
+}
+ul {
+    list-style-type: none;
+}
+a:hover,
+button :hover{
+    opacity: 0.7;
+}
+h1 {
+ font-size: 32px;
+ color: #1c1c24;
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+h3 {
+  font-size: 20px;
+}
+.text-center {
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+label {
+    font-size: 14px;
+    color: #535050;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+input::-webkit-input-placeholder { 
+    color: rgba(51, 51, 51, 0.72);
+  }
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    color: #272d34;
+    border: 1px solid #272d34;
+    min-width: 120px;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #272d34;
+}
+.btn-primary {
+    background-image: linear-gradient(-45deg, #13051f, #233671);
+}
+ .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 15px;
+} 
+.error-message {
+    color: #d11313;
+    font-size: 12px;
+    display: block;
+}
+.justify-content {
+    display: flex;
+    justify-content: center;
+}
+section {
+    padding: 20px 0;
+}
+.d-flex {
+    display: flex;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+app-footer {
+    margin-top: auto;
+}

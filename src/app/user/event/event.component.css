@@ -1,0 +1,16 @@
+.panel {
+    background: cornflowerblue;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 20px;
+    height: 100%;
+}
+.panel h3 {
+    margin-bottom: 10px;
+}
+.date {
+    min-width: 90px;
+    margin-right: 10px;
+}
+
+

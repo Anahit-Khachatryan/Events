@@ -1,0 +1,20 @@
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination li {
+    padding: 5px 12px;
+    line-height: 1;
+}
+.pagination li.active {
+background: red;
+}
+.pagination li.active button {
+    color: #fff;
+}
+.pagination li button {
+  border: 0;
+  background: transparent;
+}
